@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/home.css'
-import hero from '../assets/img/cheerful-young-business-colleagues.jpg';
 import {Col, Row} from "react-bootstrap";
 function Home(props) {
     return (
