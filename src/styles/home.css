@@ -1,0 +1,289 @@
+
+.header {
+    background: #133F4A;
+    color: #fff;
+    padding: 50px 50px 20px 150px;
+}
+.logo-box {
+    text-align: left;
+}
+.logo-box .logo {
+    width: 150px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+}
+.logo-box span {
+    font-weight: bold;
+}
+
+.sp-1 {
+    width: 140px;
+    margin: 20px 0 0 50px;
+    color: #4190AA;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+}
+.h-call {
+    margin: 20px 0 0 80px ;
+    text-align: left;
+}
+.h-call p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #377E94;;
+}
+.h-call h6 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 24px;
+    color: #377E94;
+}
+.h-call span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #377E94;
+    margin: 10px 0 0 10px;
+}
+.h-links {
+    margin: 30px 0 0 50px;
+}
+.h-links a {
+    font-size: 16px;
+    line-height: 26px;
+    color: #BEAE4F;
+    margin-right: 20px;
+
+}
+
+.navbar {
+    background: #204D58!important;
+    height: 60px;
+}
+.navbar-nav {
+    gap: 40px;
+    margin: 0 0 0 100px;
+}
+.nav-item {
+    border-left: 1px solid #133F4A;
+    width: 140px;
+    height: 59px;
+}
+.nav-item .active {
+    color: #ffffff!important;
+}
+.nav-item .nav-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    width: 140px;
+    padding: 10px 0 0 10px;
+}
+.nav-item:hover {
+    background: #133F4A!important;
+    color: #ffffff;
+    width: 140px!important;
+}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(27, 47, 69, 0.6), rgba(27, 47, 69, 0.6)), url('../assets/img/cheerful-young-business-colleagues.jpg');
+    background-size: cover;
+}
+@media (min-width: 1365px) {
+    .hero {
+        background-attachment: fixed;
+    }
+}
+.hero-content {
+    width: 40%;
+    height: 100vh;
+    background: #377E94;
+}
+.hero-details {
+    text-align: left;
+    padding: 250px 0 0 50px;
+}
+.hero-details h1 {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    color: #123F4A;
+}
+.hero-details p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 20px 0 0 0;
+}
+.hero-details span {
+    margin: 20px 0 0 0;
+    color: #BEAE4F;
+}
+
+
+.breadcrumbs {
+    justify-content: space-evenly;
+    text-align: left;
+}
+.b-d {
+    border-left: 1px solid #282c34;
+    padding: 25px 0 0 25px;
+}
+.b-1 {
+    background: #123F4A;
+}
+.b-1 h2 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+    color: #204D58;
+}
+.b-2 {
+    background: #1F938B;
+}
+.b-2 h2 {
+    color: #0A7870;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px
+}
+.b-3 {
+    background: #0D6481;
+}
+.b-3 h2 {
+    color: #204D58;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px
+}
+.b-4 {
+    background: #BEAE4F;
+}
+.b-4 h2 {
+    color: #998825;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px
+}
+
+
+
+.a-management {
+    background: #123F4A;
+    text-align: left;
+    padding: 100px 0 0 100px;
+}
+
+.a-management h1 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    width: 164px;
+    color: #ffffff;
+}
+.a-management p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #458291;
+    width: 263px;
+}
+.a-management li {
+    color: #BEAE4F;
+}
+
+
+.c-d {
+   margin: 0 0 0 120px;
+}
+.card {
+    height: 200px;
+    width: 300px;
+    margin: 0 0 0 0;
+    border: none!important;
+    color: #0D6481;
+    border-right: 1px solid #282c34;
+}
+.card-body {
+    padding: 80px 0 0 0;
+    text-align: left;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+}
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.more {
+    background: #204D58;
+}
+
+.b-d-m {
+    border-left: 1px solid #282c34;
+    padding: 25px 50px 25px 100px;
+    text-align: left;
+}
+
+.b-d-m .s-3 {
+    color: #998825;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px
+}
+.b-d-m .s-2 {
+    color: #204D58;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px
+}
+.b-d-m .s-1 {
+    color: #0A7870;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px
+}
+.news-letter {
+    padding: 80px 0 0 150px;
+}
+
+.news-letter p {
+    font-weight: 400;
+    width: 266px;
+    font-size: 28px;
+    text-align: left;
+    color: #458291;
+    line-height: 30px;
+}
+
+.footer {
+    padding: 50px 0 0 0;
+}
+.footer .f-h {
+    padding: 0 0 0 80px;
+    font-size: 40px;
+    color: #458291;
+}
+.footer a {
+    color: #458291!important;
+}
+.footer .mb-0 {
+    color: #ffffff!important;
+}
+.footer .list-un-styled {
+    padding: 20px 0 0 0;
+}
+.footer .list-un-styled li {
+    padding: 5px;
+    list-style-type: none;
+}
